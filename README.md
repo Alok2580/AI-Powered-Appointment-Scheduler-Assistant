@@ -3,6 +3,9 @@
 ## Overview
 This backend accepts appointment requests as text or images, runs OCR plus entity extraction with Gemini, normalizes to Asia/Kolkata time, and returns structured JSON with guardrails.
 
+## Demo video
+- https://drive.google.com/file/d/1KOACVoBSzeRgOTi7Q_hi7MXms8yN_6QY/view?usp=sharing
+
 ## Architecture
 1. Input handling (text JSON or image upload via multipart/form-data)
 2. Gemini OCR and entity extraction
